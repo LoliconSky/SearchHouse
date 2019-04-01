@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    hikari:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/xunwu?serverTimezone=Asia/Shanghai&useSSL=true&characterEncoding=UTF-8
+      username: loli
+      password: 12358
+  thymeleaf:
+    cache: false
+logging:
+  level:
+    org.hibernate.SQL: debug
+

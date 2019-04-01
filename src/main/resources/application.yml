@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+
+  # thymeleaf
+  thymeleaf:
+    mode: HTML
+    suffix: .html
+    prefix: classpath:/templates/
+  devtools:
+    restart:
+      additional-exclude: templates/**,static/**
